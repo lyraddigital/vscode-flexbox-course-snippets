@@ -1,0 +1,30 @@
+{
+    "name": "fc-snippets",
+    "displayName": "ld-fc-snippets",
+    "description": "Snippets for the Lyrad Digital Flexbox Course",
+    "publisher": "lyrad-digital",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lyraddigital/vscode-flexbox-course-snippets"
+    },
+    "icon": "logo.png",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html-snippets.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/css-snippets.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,217 @@
+{
+    "Chat Application Main Container CSS": {
+        "prefix": "ld-fc-app-chat-container-styles",
+        "body": [
+            "#chat-container {",
+            "\tmin-width: 800px;",
+            "\tmax-width: 1000px;",
+            "\tmax-height: 800px;",
+            "\theight: 95vh;",
+            "\tbackground: #FFF;",
+            "\tborder-radius: 10px;",
+            "}"
+        ]
+    },
+
+    "Chat Application Sidebar CSS": {
+        "prefix": "ld-fc-app-chat-container-content-styles",
+        "body": [
+            "#side-bar {",
+            "\tbackground: #0048AA;",
+            "\tborder-radius: 10px 0 0 10px;",
+            "}",
+            "",
+            "#chat-window {",
+            "\tborder-radius: 0 10px 10px 0;",
+            "}"
+        ]
+    },
+
+    "Chat Application Sidebar Content CSS": {
+        "prefix": "ld-fc-app-side-bar-content-styles",
+        "body": [
+            "#search-container {",
+            "\tpadding: 0 20px;",
+            "\tbox-shadow: 0 1px 3px -1px rgba(0,0,0,0.75);",
+            "}",
+            "",
+            "#search-container input {",
+            "\tcolor: #eee;",
+            "\toutline: none;",
+            "\tfont-weight: bold;",
+            "\tborder-radius: 2px;",
+            "\tborder: 0;",
+            "\tpadding-left: 48px;",
+            "\tpadding-right: 20px;",
+            "\tfont-size: 1.4rem;",
+            "\tbackground: url('../images/search/search.svg') no-repeat rgba(255, 255, 255, 0.3);",
+            "\tbackground-position: 15px center;",
+            "\tbackground-size: 20px 20px;",
+            "}",
+            "",
+            "#search-container input::placeholder {",
+            "\tcolor: #ddd;",
+            "\tfont-weight: bold;",
+            "}",
+            "",
+            "#new-message-container {",
+            "\tborder-top: 1px solid rgba(0,0,0,0.25);",
+            "\tpadding: 0 15px;",
+            "}",
+            "",
+            "#new-message-container a {",
+            "\theight: 40px;",
+            "\twidth: 40px;",
+            "\tbackground: #eee;",
+            "\tborder-radius: 100%;",
+            "\tcolor: #002C88;",
+            "\ttext-decoration: none;",
+            "\tfont-size: 3.6rem;",
+            "}"
+        ]
+    }, 
+    "Chat Application Chat Window Content CSS": {
+        "prefix": "ld-fc-app-chat-window-content-styles",
+        "body": [
+            "#chat-title {",
+            "\tbackground: #eee;",
+            "\tpadding: 0 20px;",
+            "\tfont-weight: bold;",
+            "\tbox-shadow: 0 1px 3px -1px rgba(0,0,0,0.75);",
+            "\tborder-radius: 0 10px 0 0;",
+            "\tfont-size: 2.0rem;",
+            "\tcolor: #0048AA;",
+            "}",
+            "",
+            "#chat-message-list {",
+            "\tpadding: 0 20px;",
+            "}",
+            "",
+            "#chat-form {",
+            "\tbackground: #eee;",
+            "\tpadding-left: 42px;",
+            "\tpadding-right: 22px;",
+            "\tborder-radius: 0 0 10px 0;",
+            "\tborder-top: 1px solid rgba(0,0,0,0.25);",
+            "}"
+        ]
+    },
+    "Chat Application Chat Title Content CSS": {
+        "prefix": "ld-fc-app-chat-title-content-styles",
+        "body": [
+            ".trash-logo {",
+            "\tstroke: #0048AA;",
+            "\theight: 36px;",
+            "}"
+        ]
+    },
+    "Chat Application Chat Form Content CSS": {
+        "prefix": "ld-fc-app-chat-form-content-styles",
+        "body": [
+            "#attachment-logo {",
+            "\tcursor: pointer;",
+            "\theight: 32px;",
+            "\tfill:#0048AA;",
+            "\tmargin-right: 15px;",
+            "}",
+            "",
+            "#chat-form input {",
+            "\toutline: none;",
+            "\tpadding: 15px;",
+            "\tborder: 2px solid #ddd;",
+            "\tcolor: #330;",
+            "\tborder-radius: 6px;",
+            "\tfont-size: 1.4rem;",
+            "}"
+        ]
+    }, 
+    "Chat Application Conversation Item CSS": {
+        "prefix": "ld-fc-app-conversation-item-styles",
+        "body": [
+            ".conversation {",
+            "\tcolor: #ddd;",
+            "\tfont-size: 1.3rem;",
+            "\tborder-bottom: 1px solid #002C88;",
+            "\tpadding: 20px 20px 20px 15px;",
+            "\tmax-width: 300px;",
+            "}",
+            "",
+            ".conversation.active,",
+            ".conversation:hover {",
+            "\tbackground: #002C88;",
+            "}",
+            "",
+            ".conversation:hover {",
+            "\tcursor: pointer;",
+            "}",
+            "",
+            ".conversation > img {",
+            "\tmargin-right: 15px;",
+            "\tmax-width: 40px;",
+            "\tmax-height: 40px;",
+            "\theight: 40px;",
+            "\tborder-radius: 100%;",
+            "}",
+            "",
+            ".title-text {",
+            "\tfont-weight: bold;",
+            "\tmargin-right: 10px;",
+            "\tcolor: #eee;",
+            "}",
+            "",
+            ".created-date {",
+            "\tcolor: #ddd;",
+            "\tfont-size: 1rem;",
+            "}"
+        ]
+    },
+    "Chat Application Chat Message CSS": {
+        "prefix": "ld-fc-app-chat-message-initial-styles",
+        "body": [
+            ".message-row {",
+            "\tmargin-bottom: 20px;",
+            "}",
+            "",
+            ".message-time {",
+            "\tfont-size: 1.3rem;",
+            "\tcolor: #777;",
+            "}",
+            "",
+            ".message-text {",
+            "\tpadding: 9px 14px;",
+            "\tfont-size: 1.6rem;",
+            "\tmargin-bottom: 5px;",
+            "}",
+            "",
+            ".you-message .message-text {",
+            "\tbackground: #0048AA;",
+            "\tcolor: #eee;",
+            "\tborder: 1px solid #0048AA;",
+            "\tborder-radius: 14px 14px 0 14px",
+            "}",
+            "",
+            ".other-message .message-text {",
+            "\tbackground: #eee;",
+            "\tcolor: #111;",
+            "\tborder: 1px solid #ddd;",
+            "\tborder-radius: 14px 14px 14px 0;",
+            "}"
+        ]
+    }, 
+
+    "Chat Application Chat Message Image CSS": {
+        "prefix": "ld-fc-app-chat-message-image-styles",
+        "body": [
+            ".user-picture-container {",
+            "\tmargin-right: 15px;",
+            "\tmin-width: 48px;",
+            "}",
+            "",
+            ".user-picture-container img {",
+            "\twidth: 48px;",
+            "\theight: 48px;",
+            "\tborder-radius: 100%;",
+            "}"
+        ]
+    }
+}
