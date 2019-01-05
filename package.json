@@ -1,8 +1,8 @@
 {
-    "name": "fc-snippets",
-    "displayName": "ld-fc-snippets",
-    "description": "Snippets for the Lyrad Digital Flexbox Course",
-    "publisher": "lyrad-digital",
+    "name": "ld-fc-snippets",
+    "displayName": "Flexbox In Depth - Course Snippets",
+    "description": "Snippets for the Flexbox In Depth Course",
+    "publisher": "Lyrad Digital",
     "repository": {
         "type": "git",
         "url": "https://github.com/lyraddigital/vscode-flexbox-course-snippets"
